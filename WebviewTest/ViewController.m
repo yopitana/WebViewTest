@@ -72,7 +72,7 @@
  // [self.view addSubview:self.scrollView];
  // self.scrollView.delegate = self;
   
-  NSURL* url = [NSURL URLWithString:@"http://labo.tv/2chnews/"];
+  NSURL* url = [NSURL URLWithString:@""];
   NSURLRequest* req = [[[NSURLRequest alloc] initWithURL:url] autorelease];
   [self.webview loadRequest:req];
 }
